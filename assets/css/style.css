@@ -62,7 +62,7 @@
     color: #FFFFFF;
 }
 
-.top-section-video {
+.top-Header-video {
     position: absolute;
     margin-top: 3%;
     margin-left: 4.5%;
@@ -72,7 +72,7 @@
     z-index: 10;
 }
 
-.top-section-image1 {
+.top-Header-image1 {
     position: relative;
     width: 181.52px;
     height: 196.04px;
@@ -82,7 +82,7 @@
     z-index: -6;
 }
 
-.top-Section-image2 {
+.top-Header-image2 {
     position: relative;
     width: 181.52px;
     height: 196.04px;
@@ -91,76 +91,284 @@
 }
 
 .main-background {
-    background-image: url('/assets/svg');
+    background-image: url('/assets/svg/main.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.section1-text{
+.section1-text {
     margin-top: 15rem;
     padding-top: 10rem;
 }
 
+.section-card-group{
+    margin-left: 5.5%;
+}
 
+.section1-image3{
+    position: relative;
+    width: 344px;
+    height: 316px;
+    margin-left: 850px;
+    z-index: 5;
+    /* margin-top: 0px; */
+    margin-top: 30px;
+}
 
+.section1-image4{
+    position: relative;
+    width: 259.82px;
+    height: 280.61px;
+    margin-left: -95px;
+    margin-top: -230px;
+    z-index: 5;
+}
+
+.icon1 {
+    /* position: absolute; */
+    text-align: center;
+    margin-left: 40%;
+    padding: 14px;
+    margin-top: 60px;
+    background: #0B4C61;
+    height: 60px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px #574C5D;
+    ;
+}
+
+.icon2 {
+    /* position: absolute; */
+    text-align: center;
+    margin-left: 40%;
+    padding: 14px 20px 14px 20px;
+    /* padding-right: 10px; */
+    margin-top: 60px;
+    background: #0B4C61;
+    height: 60px;
+    width: 60px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px #574C5D;
+    ;
+}
+
+.icon3 {
+    /* position: absolute; */
+    text-align: center;
+    margin-left: 40%;
+    padding: 12px 18px 12px 18px;
+    /* padding-right: 10px; */
+    margin-top: 60px;
+    background: #0B4C61;
+    height: 60px;
+    width: 60px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px #574C5D;
+    ;
+}
+
+.card1 {
+    position: absolute;
+    width: 300px;
+    height: 390px;
+    z-index: 10;
+    margin-left: 80px;
+    background: #ff3a44;
+    border-radius: 20px;
+}
+
+.card2 {
+    position: absolute;
+    width: 300px;
+    height: 390px;
+    margin-left: 410px;
+    z-index: 10;
+    background: #ffbd2f;
+    border-radius: 20px;
+}
+
+.card3 {
+    position: absolute;
+    width: 300px;
+    height: 390px;
+    margin-left: 740px;
+    z-index: 10;
+    background: #0489ca;
+    border-radius: 20px;
+}
+
+.section1-p1{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.section1-p2{
+    text-align: center;
+    font-size: small;
+}
 
 /* scree-size: 768px */
 
-@media only screen and (max-width: 768px) {
-    .top-section-video {
+@media only screen and (max-width:768px) {
+    .top-Header-video {
         position: absolute;
         margin-top: 5%;
-        /* margin-left: 4.5%; */
-        margin-left: 7%;
-        height: 250px;
-        width: 400px;
+        margin-left: 10%;
+        height: 350px;
+        width: 560px;
         border-radius: 20px;
         z-index: 10;
     }
-    .top-section-image1 {
+    .top-Header-image1 {
         position: relative;
-        width: 120px;
-        height: 120px;
-        margin-left: 78%;
+        width: 150px;
+        height: 150px;
+        margin-left: 170%;
         z-index: -6;
     }
-
-    .top-Section-image3{
+    .top-Header-image2 {
         position: relative;
-        width: 120px;
-        height: 120px;
-        margin-top: 6%;
-        margin-left: -1%;
+        width: 150px;
+        height: 150px;
+        margin-top: 20%;
         z-index: -5;
     }
+
+/* section-1 */
+  
+    
+    .section1-image3{
+        position: absolute;
+        width: 344px;
+        height: 316px;
+        margin-left: 240px;
+        z-index: 5;
+        margin-top: 450px;
+    }
+    
+    .section1-image4{
+        position: absolute;
+        width: 259.82px;
+        height: 280.61px;   
+        margin-left: -20%;
+        margin-top: 80px;
+        z-index: 5;
+    }
+
+    .card1 {
+        position: absolute;
+        width: 280px;
+        height: 390px;
+        z-index: 10;
+        margin-left: 0%;
+        background: #ff3a44;
+        border-radius: 20px;
+    }
+    
+    .card2 {
+        position: absolute;
+        width: 280px;
+        height: 390px;
+        margin-left: 310px;
+        z-index: 10;
+        background: #ffbd2f;
+        border-radius: 20px;
+    }
+
+    .card3 {
+    position: relative;
+    width: 280px;
+    height: 390px;
+    margin-left: 150px;
+    margin-top: 420px;   
+    z-index: 10;
+    background: #0489ca;
+    border-radius: 20px;
+}
+
+
 }
 
 @media only screen and (max-width: 360px) {
-    .top-section-video {
+    .top-Header-video {
         position: absolute;
         margin-top: 5%;
-        margin-left: 6%;
+        margin-left: 0%;
         height: 220px;
-        width: 250px;
+        width: 280px;
         border-radius: 20px;
         margin-left: 8%;
         z-index: 10;
     }
-
-    .top-section-image1 {
+    .top-Header-image1 {
         position: relative;
-        width: 120px;
-        height: 120px;
-        margin-left: 70%;
+        width: 60px;
+        height: 60px;
+        margin-left: 85%;
         border-radius: 0px;
     }
-
-    .top-Section-image4 {
+    .top-Header-image2{
         position: relative;
-        width: 120px;
-        height: 120px;
-        margin-top: 4%;
-        margin-left:-8%;
+        width: 60px;
+        height: 60px;
+        margin-top: 20%;
+        margin-left: -2%;
         z-index: -5;
     }
+
+    /* section-1 */
+
+    .section1-image3{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        margin-left: 50%;
+        z-index: 5;
+        margin-top: 285%;
+    }
+    
+    .section1-image4{
+        position: absolute;
+        width: 150px;
+        height: 150px;   
+        margin-left: -25%;
+        margin-top: 40%;
+        z-index: 5;
+    }
+
+    .card1 {
+        position: relative;
+        width: 280px;
+        height: 390px;
+        z-index: 10;
+        margin-left: -5%;
+        background: #ff3a44;
+        border-radius: 20px;
+    }
+    
+    .card2 {
+        position: relative;
+        width: 280px;
+        height: 390px;
+        margin-left: -5%;
+        margin-top: 30px;
+        z-index: 10;
+        background: #ffbd2f;
+        border-radius: 20px;
+    }
+
+    .card3 {
+    position: relative;
+    width: 280px;
+    height: 390px;
+    margin-left: -5%;
+    margin-top: 30px;   
+    z-index: 10;
+    background: #0489ca;
+    border-radius: 20px;
+}
 }
